@@ -38,7 +38,18 @@ int main()
 		cout << i << '\n';
 		cout << i << '\t';
 	}
-
+	cout << "\n";
+	int begin, end;
+	cout << "Введіть початок діапазону: ";
+	cin >> begin;
+	cout << "Введіть кінець діапазону: ";
+	cin >> end;
+	for (int i = begin; i <= end; i++)
+	{
+		if (i % 2 == 0)
+			cout << i << '\n';
+	}
+	cout << "\nThank you :)";
 	return 0;
 
 }
